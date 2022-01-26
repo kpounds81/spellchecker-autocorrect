@@ -1,6 +1,6 @@
 var path = require("path");
 var fs = require("fs");
-var corpus = String(fs.readFileSync(path.join(__dirname, "./corpus")));
+var corpus = String(fs.readFileSync(path.join(__dirname, "./corpus"))); // could be a list of common email addresses for checking emails? 
 console.log("\nInitializing spellchecker!\n");
 
 /*
